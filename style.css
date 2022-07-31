@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url('./assets/fonts/Montserrat-Regular.otf') format('truetype');
+}
+
+body {
+  background-color: #050008;
+
+  font-family: 'Montserrat Regular'
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+
+  height: 100vh;
+}
+
+.whats {
+  background-color: #051501;
+  border: #042f0b 1px solid;
+}
+
+.tagWhats {
+  border: #042f0b 21px solid;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 150px;
+  width: 150px;
+
+  position: absolute;
+  top: 20%;
+  border-radius: 50%;
+
+  z-index: 1;
+}
+
+.discord {
+  background-color: #150021;
+  border: #3f1a57 1px solid;
+}
+
+.tagDiscord {
+  border: #3f1a57 21px solid;
+
+  display: flex;
+  justify-content: center;
+  
+  height: 150px;
+  width: 150px;
+
+  position: absolute;
+  top: 20%;
+  border-radius: 50%;
+
+  z-index: 1;
+
+}
+
+.youtube {
+  background-color: #120400;
+  border:  #410f00 1px solid;
+}
+
+.tagYoutube {
+  border: #410f00 21px solid;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 150px;
+  width: 150px;
+
+  position: absolute;
+  top: 20%;
+  border-radius: 50%;
+
+  z-index: 1;
+}
+
+.card {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 350px;
+  height: 400px;
+
+  padding: 18px;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card .descricao {
+  color: #FFF;
+  font-size: 16px;
+
+  text-align: center;
+  line-height: 1.5em;
+
+  padding: 32px 0px;
+}
+
+.btnWhats {
+  background-color: #0b7a3c;
+}
+
+.btnDiscord {
+  background-color: #8a35c8;
+}
+
+.btnYoutube {
+  background-color: #bc0f00;
+}
+
+.card .containerBtn {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  width: 95%;
+
+  cursor: pointer;
+
+  border-radius: 6px;
+
+  margin-top: 22px;
+  padding: 15px 30px;
+}
+
+.img {
+  width: 25px;
+  height: 25px;
+}
+
+.card .containerBtn .link {
+  font-size: 16px;
+  color: #FFF;
+
+  text-decoration: none;
+}
